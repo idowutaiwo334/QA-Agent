@@ -12,7 +12,7 @@ from pydantic import BaseModel
 
 import rag
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent
 FRONTEND_DIR = BASE_DIR / "frontend"
 
 app = FastAPI(title="Q&A Agent API")
@@ -62,3 +62,4 @@ def trigger_ingest():
 # Serve the frontend (static files) at the root, after API routes are registered
 if FRONTEND_DIR.exists():
     app.mount("/", StaticFiles(directory=str(FRONTEND_DIR), html=True), name="frontend")
+
