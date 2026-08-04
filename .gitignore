@@ -1,0 +1,15 @@
+# Environment / secrets
+.env
+backend/.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Vector DB (rebuilt on deploy from /data)
+chroma_db/
+
+# OS
+.DS_Store
