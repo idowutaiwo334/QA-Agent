@@ -5,7 +5,8 @@ in the web chat UI, and get answers grounded in those documents (with
 sources cited). Runs as a single FastAPI service — no separate frontend
 deployment needed.
 🔗 **Live demo:** https://qa-agent-production-1b70.up.railway.app
-"C:\Users\HP\Pictures\Screenshots\Screenshot (208).png"
+<img width="1360" height="717" alt="Screenshot (208)" src="https://github.com/user-attachments/assets/fca37d0d-8fd4-46d3-8d0f-4a0de42ce588" />
+
 
 
 - **Retrieval**: local vector search (Chroma), embeddings run locally via
