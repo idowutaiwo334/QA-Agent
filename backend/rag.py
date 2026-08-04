@@ -18,7 +18,7 @@ from chromadb.utils import embedding_functions
 from pypdf import PdfReader
 from anthropic import Anthropic
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data"
 DB_DIR = BASE_DIR / "chroma_db"
 COLLECTION_NAME = "documents"
